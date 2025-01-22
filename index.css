@@ -7,9 +7,10 @@
 
 h1{
     text-align: center;
-    margin-top: 20px;
     color: white;
     font-size: 2rem;
+    background-color: #0d5322;
+    padding: 30px ;
 }
 
 img{
@@ -19,14 +20,14 @@ img{
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #769c38;
+    background-image: url(/image/pixel-minecraft-style-land-background-vector.jpg);
 }
 
 .count{
     text-align: center;
-    margin-top: 20px;
     color: white;
     font-size: 1.5rem;
+    background-color: rgb(26, 25, 25);
 }
 
 .btn-container{
@@ -56,8 +57,8 @@ body{
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 }
 
 .item{
@@ -151,6 +152,10 @@ body{
    
     .whack-text {
       font-size: 18px;
+    }
+
+    .itemfinal{
+      display: none;
     }
    }
    
